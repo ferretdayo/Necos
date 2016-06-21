@@ -1,0 +1,15 @@
+{
+    "name": "tsuruda_tomohiro/necos",
+    "require-dev": {
+        "dropbox/dropbox-sdk": "*"
+    },
+    "authors": [
+        {
+            "name": "ferretdayo",
+            "email": "ferretdayo@hotmail.co.jp"
+        }
+    ],
+    "require": {
+	"dropbox/dropbox-sdk": "*"
+    }
+}

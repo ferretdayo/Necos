@@ -1,0 +1,7 @@
+<?php
+    define("LEDTEST", "/usr/bin/sudo /home/pi/jikken/ledtest");
+    define("ADDRESS", "192.168.11.13");
+    define("USER", "pi");
+    define("PASSWORD", "パスワード");
+    define("ACCESSTOKEN", "アクセストークン");
+?>
