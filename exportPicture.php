@@ -5,7 +5,7 @@
 		private $dropbox;
 		function __construct(){
 			define("YOUR_USER_AGENT","chrome");
-			$this->dropbox = new \Dropbox\Client("ACCESSTOKEN", YOUR_USER_AGENT);
+			$this->dropbox = new \Dropbox\Client(ACCESSTOKEN, YOUR_USER_AGENT);
 		}
 		function Upload($localpath, $destpath){
 			try{
