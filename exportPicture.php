@@ -13,7 +13,7 @@
 				$res = $this->dropbox->uploadFile($destpath, \Dropbox\WriteMode::add(), $fp);
 				fclose($fp);
 			}catch(Exception $e){
-				echo "upload error";
+				echo $e->getMessage();
 				exit;
 			}
 			var_dump($res);
