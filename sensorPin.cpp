@@ -1,6 +1,9 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+#include<unistd.h>
+
+
 #include<wiringPi.h>
 
 int CENCER_PIN = 15;
@@ -19,5 +22,6 @@ int main(){
     if(sensorPinState == 0){
       system(command);
     }
+    //    printf("%d",sensorPinState);
   }
 }
